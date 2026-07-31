@@ -1,0 +1,46 @@
+name: Generate Contribution Snake Animation
+
+on:
+  schedule:
+    # Executa automaticamente todos os dias à meia-noite (UTC)
+    - cron: "0 0 * * *"
+  
+  # Permite o disparo manual do workflow através da aba Actions
+  workflow_dispatch:
+  
+  # Executa automaticamente quando alterações são enviadas para a branch principal
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      # Passagem 1: Clona o repositório no ambiente virtual
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # Passagem 2: Executa a ação da cobrinha para gerar os vetores SVG
+      - name: Generate GitHub Contributions Snake Animations
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Passagem 3: Envia os arquivos gerados no diretório dist/ para a branch 'output'
+      - name: Push Generated SVGs to Output Branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
