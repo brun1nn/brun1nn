@@ -1,17 +1,19 @@
 
+
 ---
 
-### 🛠️ Tecnologias e Ecossistema
+### Meu Workspace
+##### Estas são algumas das ferramentas que eu utilizo durante o desenvolvimento de meus sites, sempre busco usufruir do máximo de ferramentas possíveis pois isso me leva à um projeto completo, escalável e inteligente.
 
 <div align="center">
   <a href="https://github.com/brun1nn">
-    <img src="https://skillicons.dev/icons?i=ts,js,python,java,react,nextjs,nodejs,express,tailwind,postgres,mongodb,docker,git,github,vscode,linux&perline=8" alt="Linguagens e Ferramentas" />
+    <img src="https://skillicons.dev/icons?i=ts&perline=8" alt="Linguagens e Ferramentas" />
   </a>
 </div>
 
 ---
 
-### 🏆 Galeria de Conquistas e Troféus
+### Troféus Git
 
 <div align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
@@ -21,7 +23,7 @@
 
 ---
 
-### 📈 Estatísticas de Desempenho e Sequência
+### Estatísticas de Desempenho
 
 <div align="center">
   <table border="0">
@@ -45,28 +47,6 @@
       </td>
     </tr>
   </table>
-</div>
-
----
-
-### 🐍 Animação da Grade de Contribuições (Snake Game)
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/brun1nn/brun1nn/output/github-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/brun1nn/brun1nn/output/github-snake.svg">
-    <img alt="Jogo da Cobrinha consumindo o histórico de contribuições" src="https://raw.githubusercontent.com/brun1nn/brun1nn/output/github-snake.svg" width="100%">
-  </picture>
-</div>
-
----
-
-### 🎧 Tocando Recente no Spotify
-
-<div align="center">
-  <a href="https://github.com/kittinan/spotify-github-profile">
-    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=brun1nn&cover_image=true&theme=novatorem&show_offline=true&background_color=1a1b26&bar_color=36bcf7" alt="Player do Spotify em Tempo Real" />
-  </a>
 </div>
 
 ---
