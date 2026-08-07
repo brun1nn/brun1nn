@@ -1,19 +1,20 @@
-
+![Header](https://capsule-render.vercel.app/api?type=waving&height=300&text=Input%20text&section=header)
 
 ---
 
-### Meu Workspace
-##### Estas são algumas das ferramentas que eu utilizo durante o desenvolvimento de meus sites, sempre busco usufruir do máximo de ferramentas possíveis pois isso me leva à um projeto completo, escalável e inteligente.
+### My Workspace
+##### These are some of the frameworks, languages & much more that I use when developing my websites and systems. Using them allow me to develop a more complete, scalable and intelligent system.
+<!-- Estas são algumas das ferramentas que eu utilizo durante o desenvolvimento de meus sites, sempre busco usufruir do máximo de ferramentas possíveis pois isso me leva à um projeto completo, escalável e inteligente. -->
 
 <div align="center">
   <a href="https://github.com/brun1nn">
-    <img src="https://skillicons.dev/icons?i=ts&perline=8" alt="Linguagens e Ferramentas" />
+    <img src="https://skillicons.dev/icons?i=html,css,javascript,python,git,nodejs,next,react,vue,vite,vercel,obsidian,figma,mysql,supabase&perline=5&theme=light" alt="Linguagens e Ferramentas" />
   </a>
 </div>
 
 ---
 
-### Troféus Git
+### Git Trophies
 
 <div align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
@@ -23,13 +24,13 @@
 
 ---
 
-### Estatísticas de Desempenho
+### Performance Statistics
 
 <div align="center">
   <table border="0">
     <tr>
       <td>
-        <a href="https://github.com/anuraghazra/github-readme-stats">
+        <a href="https://github.com/brun1nn/github-readme-stats">
           <img height="180em" src="https://github-readme-stats.vercel.app/api?username=brun1nn&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Estatísticas Gerais do GitHub" />
         </a>
       </td>
@@ -51,7 +52,7 @@
 
 ---
 
-### ⚡ Atividade Recente e Telemetria de Código
+### ⚡ Recent Activity and Code Telemetry
 
 <table>
   <tr>
@@ -61,7 +62,7 @@
       <!--END_SECTION:activity-->
     </td>
     <td width="50%" valign="top">
-      <h4>📊 Telemetria de Tempo de Código (WakaTime)</h4>
+      <h4>📊 Code Telemetry (WakaTime)</h4>
       <!--START_SECTION:waka-->
       <!--END_SECTION:waka-->
     </td>
